@@ -331,8 +331,8 @@ function setup_chatwoot() {
   rvm install "ruby-3.0.4"
   rvm use 3.0.4 --default
 
-  git clone https://github.com/topdoc-marketing/dtc.git
-  cd dtc
+  git clone https://github.com/topdoc-marketing/chatwoot.git
+  cd chatwoot
   git checkout "$BRANCH"
   bundle
   yarn
