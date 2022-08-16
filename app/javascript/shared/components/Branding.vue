@@ -69,6 +69,7 @@ export default {
 }
 
 .branding--link {
+  width:100%;
   color: $color-light-gray;
   cursor: pointer;
   display: inline-flex;
